@@ -1,4 +1,27 @@
-table{
-    border: 2px;
+tbody{
+    background-color: aquamarine;
+}
+table td{
+    border-style: ridge;
+    border-radius: 3px;
     border-color: black;
+}
+h1{
+    background-color: blueviolet;
+    border-radius: 5px;
+    font-style: italic;
+}
+h2{
+    background-color: lightcyan;
+    border-radius: 5px;
+}
+h3{
+    background-color: lightpink;
+    border-radius: 5px;
+}
+fieldset{
+    background-color: aliceblue;
+}
+button{
+    background-color: gray;
 }
