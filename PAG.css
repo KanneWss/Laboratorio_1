@@ -1,6 +1,9 @@
 tbody{
     background-color: aquamarine;
 }
+thead{
+    background-color: violet;
+}
 table td{
     border-style: ridge;
     border-radius: 3px;
@@ -9,19 +12,49 @@ table td{
 h1{
     background-color: blueviolet;
     border-radius: 5px;
-    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 h2{
     background-color: lightcyan;
     border-radius: 5px;
-}
-h3{
-    background-color: lightpink;
-    border-radius: 5px;
+    color: darkslategray;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
 }
 fieldset{
     background-color: aliceblue;
+    border-radius: 5px;
+}
+input textarea{
+    background-color: lightgray;
+}
+form{
+    font-style: italic;
+    font-size: larger;
+    text-decoration-line: underline;
+}
+body{
+    background-color: beige;
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style: upper-roman
+}
+
+.fondo{
+    background-color: lightpink;
+    border-radius: 5px;
+}
+p{
+    text-align: justify;
 }
 button{
-    background-color: gray;
+    text-align: center; /* Centrar texto */
+    font-size: 5px;
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    border-radius: 8px; /* Bordes redondeados */
 }
